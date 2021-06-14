@@ -1,0 +1,122 @@
+.sampulbuku{
+    width:200px;
+    height:150px;
+}
+
+.ukuranbuku{
+    width:140px;
+}
+
+
+.buku{
+    margin-left:13px;
+    margin-bottom:15px;
+}
+.fotodashboard{
+    width:50px;
+}
+
+.table > tbody > tr > * {
+    vertical-align:middle;
+}
+
+.tulisandetail  {
+    float: left;    
+    margin: 0 15px 0 0;
+    }
+
+.fotodetail {
+     width: 100%;
+     height: 150px;
+     background-repeat: no-repeat;
+     background-size: contain;   
+}
+
+.librarydetail {
+     width: 100%;
+     height: 200px;
+     background-repeat: no-repeat;
+     background-size: contain;   
+}
+.nomor{
+    margin-left:72px;
+    margin-top:10px;
+}
+
+.opsibutton{
+    display:flex;
+    margin:auto; 
+    justify-content:center;
+    text-align:center;
+    width: 5rem; 
+}
+
+
+
+.fotomhs{
+    margin: 40px auto;
+    width:100%;
+    background-size:contain;
+}
+
+.dalam{
+    width:100%;
+}
+
+@media (min-width: 600px){
+    .opsibutton{
+        display:flex;
+        justify-content:center;
+        margin:100px auto;
+        width: 20rem; 
+    }
+    .ukuranbuku{
+        width:170px;
+    }
+    .buku{
+        display:flex;
+        margin-left:15px;
+    }
+
+    
+
+}
+
+@media (min-width: 198px){
+    .opsibutton{
+        display:flex;
+        margin:auto; 
+        justify-content:center;
+        width: 7rem; 
+    }
+}
+
+@media (min-width: 264px){
+    .opsibutton{
+        display:flex;
+        margin:auto; 
+        justify-content:center;
+        width: 10rem; 
+    }
+}
+
+@media (min-width: 500px){
+    .opsibutton{
+        display:flex;
+        margin:auto; 
+        justify-content:center;
+        width: 20rem; 
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
