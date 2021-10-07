@@ -1,0 +1,93 @@
+CRITICAL - 2021-06-03 22:30:13 --> unlink(assets/images/chart/defaultchart.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(assets/i...', 'C:\\xampp\\htdocs...', 161)
+#1 C:\xampp\htdocs\pilotgamingindo\app\Controllers\Chart.php(161): unlink('assets/images/c...')
+#2 C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php(936): App\Controllers\Chart->delete('13')
+#3 C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chart))
+#4 C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\pilotgamingindo\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\pilotgamingindo\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-06-03 22:43:43 --> Undefined variable $chart
+#0 C:\xampp\htdocs\pilotgamingindo\app\Views\chart\edit.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13)
+#1 C:\xampp\htdocs\pilotgamingindo\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pilotgamingindo\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pilotgamingindo\system\Common.php(1217): CodeIgniter\View\View->render('chart/edit', Array, true)
+#4 C:\xampp\htdocs\pilotgamingindo\app\Controllers\Chart.php(181): view('chart/edit', Array)
+#5 C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php(936): App\Controllers\Chart->edit('widd')
+#6 C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chart))
+#7 C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pilotgamingindo\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\pilotgamingindo\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-06-03 22:46:21 --> Undefined variable $slug
+#0 C:\xampp\htdocs\pilotgamingindo\app\Controllers\Chart.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 69)
+#1 C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php(936): App\Controllers\Chart->create()
+#2 C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chart))
+#3 C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pilotgamingindo\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pilotgamingindo\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-03 22:47:42 --> Too few arguments to function App\Controllers\Chart::edit(), 0 passed in C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php(936): App\Controllers\Chart->edit()
+#1 C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chart))
+#2 C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pilotgamingindo\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\pilotgamingindo\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-06-03 22:49:24 --> Too few arguments to function App\Controllers\Chart::edit(), 0 passed in C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php(936): App\Controllers\Chart->edit()
+#1 C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chart))
+#2 C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pilotgamingindo\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\pilotgamingindo\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-06-03 22:52:09 --> Too few arguments to function App\Controllers\Chart::edit(), 0 passed in C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php(936): App\Controllers\Chart->edit()
+#1 C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chart))
+#2 C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pilotgamingindo\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\pilotgamingindo\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-06-03 22:52:11 --> Too few arguments to function App\Controllers\Chart::edit(), 0 passed in C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php on line 936 and exactly 1 expected
+#0 C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php(936): App\Controllers\Chart->edit()
+#1 C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chart))
+#2 C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pilotgamingindo\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\pilotgamingindo\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-06-03 23:13:59 --> unlink(assets/file/pdf/): Is a directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(assets/f...', 'C:\\xampp\\htdocs...', 266)
+#1 C:\xampp\htdocs\pilotgamingindo\app\Controllers\Chart.php(266): unlink('assets/file/pdf...')
+#2 C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php(936): App\Controllers\Chart->update('15')
+#3 C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chart))
+#4 C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\pilotgamingindo\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\pilotgamingindo\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-06-03 23:15:54 --> unlink(assets/file/pdf/): Is a directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(assets/f...', 'C:\\xampp\\htdocs...', 266)
+#1 C:\xampp\htdocs\pilotgamingindo\app\Controllers\Chart.php(266): unlink('assets/file/pdf...')
+#2 C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php(936): App\Controllers\Chart->update('16')
+#3 C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chart))
+#4 C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\pilotgamingindo\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\pilotgamingindo\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-06-03 23:19:02 --> unlink(assets/file/pdf/): Is a directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(assets/f...', 'C:\\xampp\\htdocs...', 266)
+#1 C:\xampp\htdocs\pilotgamingindo\app\Controllers\Chart.php(266): unlink('assets/file/pdf...')
+#2 C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php(936): App\Controllers\Chart->update('16')
+#3 C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chart))
+#4 C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\pilotgamingindo\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\pilotgamingindo\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-06-03 23:19:04 --> unlink(assets/file/pdf/): Is a directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(assets/f...', 'C:\\xampp\\htdocs...', 266)
+#1 C:\xampp\htdocs\pilotgamingindo\app\Controllers\Chart.php(266): unlink('assets/file/pdf...')
+#2 C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php(936): App\Controllers\Chart->update('16')
+#3 C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chart))
+#4 C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\pilotgamingindo\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\pilotgamingindo\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}

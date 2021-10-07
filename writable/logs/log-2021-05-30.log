@@ -1,0 +1,114 @@
+CRITICAL - 2021-05-30 02:58:01 --> Undefined variable $user
+#0 C:\xampp\htdocs\pilotgamingindo\app\Views\chart\index.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 41)
+#1 C:\xampp\htdocs\pilotgamingindo\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pilotgamingindo\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pilotgamingindo\system\Common.php(1217): CodeIgniter\View\View->render('/chart/index', Array, true)
+#4 C:\xampp\htdocs\pilotgamingindo\app\Controllers\Chart.php(44): view('/chart/index', Array)
+#5 C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php(936): App\Controllers\Chart->index()
+#6 C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chart))
+#7 C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pilotgamingindo\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\pilotgamingindo\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-05-30 02:58:28 --> Undefined array key "level"
+#0 C:\xampp\htdocs\pilotgamingindo\app\Views\chart\index.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 50)
+#1 C:\xampp\htdocs\pilotgamingindo\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pilotgamingindo\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pilotgamingindo\system\Common.php(1217): CodeIgniter\View\View->render('/chart/index', Array, true)
+#4 C:\xampp\htdocs\pilotgamingindo\app\Controllers\Chart.php(44): view('/chart/index', Array)
+#5 C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php(936): App\Controllers\Chart->index()
+#6 C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chart))
+#7 C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pilotgamingindo\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\pilotgamingindo\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-05-30 03:10:11 --> Invalid file: chart/create.php
+#0 C:\xampp\htdocs\pilotgamingindo\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('chart/create.ph...')
+#1 C:\xampp\htdocs\pilotgamingindo\system\Common.php(1217): CodeIgniter\View\View->render('chart/create', Array, true)
+#2 C:\xampp\htdocs\pilotgamingindo\app\Controllers\Chart.php(71): view('chart/create', Array)
+#3 C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php(936): App\Controllers\Chart->create()
+#4 C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chart))
+#5 C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pilotgamingindo\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\pilotgamingindo\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-05-30 03:46:43 --> Undefined variable $fileIsi
+#0 C:\xampp\htdocs\pilotgamingindo\app\Controllers\Chart.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 131)
+#1 C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php(936): App\Controllers\Chart->save()
+#2 C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chart))
+#3 C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pilotgamingindo\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pilotgamingindo\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-30 03:47:35 --> url_title(): Argument #1 ($str) must be of type string, null given, called in C:\xampp\htdocs\pilotgamingindo\app\Controllers\Chart.php on line 138
+#0 C:\xampp\htdocs\pilotgamingindo\app\Controllers\Chart.php(138): url_title(NULL, '-', true)
+#1 C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php(936): App\Controllers\Chart->save()
+#2 C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chart))
+#3 C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pilotgamingindo\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pilotgamingindo\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-30 03:49:16 --> url_title(): Argument #1 ($str) must be of type string, null given, called in C:\xampp\htdocs\pilotgamingindo\app\Controllers\Chart.php on line 138
+#0 C:\xampp\htdocs\pilotgamingindo\app\Controllers\Chart.php(138): url_title(NULL, '-', true)
+#1 C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php(936): App\Controllers\Chart->save()
+#2 C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chart))
+#3 C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pilotgamingindo\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pilotgamingindo\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-30 03:50:20 --> url_title(): Argument #1 ($str) must be of type string, null given, called in C:\xampp\htdocs\pilotgamingindo\app\Controllers\Chart.php on line 138
+#0 C:\xampp\htdocs\pilotgamingindo\app\Controllers\Chart.php(138): url_title(NULL, '-', true)
+#1 C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php(936): App\Controllers\Chart->save()
+#2 C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chart))
+#3 C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pilotgamingindo\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pilotgamingindo\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-30 03:52:22 --> url_title(): Argument #1 ($str) must be of type string, null given, called in C:\xampp\htdocs\pilotgamingindo\app\Controllers\Chart.php on line 138
+#0 C:\xampp\htdocs\pilotgamingindo\app\Controllers\Chart.php(138): url_title(NULL, '-', true)
+#1 C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php(936): App\Controllers\Chart->save()
+#2 C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chart))
+#3 C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pilotgamingindo\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pilotgamingindo\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-30 04:12:00 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::getChart()
+#0 C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php(936): App\Controllers\Chart->save()
+#1 C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chart))
+#2 C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pilotgamingindo\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\pilotgamingindo\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-05-30 08:39:59 --> unlink(assets/images/chart/defaultchart.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(assets/i...', 'C:\\xampp\\htdocs...', 161)
+#1 C:\xampp\htdocs\pilotgamingindo\app\Controllers\Chart.php(161): unlink('assets/images/c...')
+#2 C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php(936): App\Controllers\Chart->delete('10')
+#3 C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chart))
+#4 C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\pilotgamingindo\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\pilotgamingindo\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-05-30 08:49:45 --> Undefined variable $user
+#0 C:\xampp\htdocs\pilotgamingindo\app\Views\dashboard\detail.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\pilotgamingindo\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pilotgamingindo\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pilotgamingindo\system\Common.php(1217): CodeIgniter\View\View->render('dashboard/detai...', Array, true)
+#4 C:\xampp\htdocs\pilotgamingindo\app\Controllers\Chart.php(60): view('dashboard/detai...', Array)
+#5 C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php(936): App\Controllers\Chart->detail('widd')
+#6 C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chart))
+#7 C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pilotgamingindo\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\pilotgamingindo\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-05-30 08:50:15 --> Undefined variable $user
+#0 C:\xampp\htdocs\pilotgamingindo\app\Views\dashboard\detail.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\pilotgamingindo\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pilotgamingindo\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pilotgamingindo\system\Common.php(1217): CodeIgniter\View\View->render('dashboard/detai...', Array, true)
+#4 C:\xampp\htdocs\pilotgamingindo\app\Controllers\Chart.php(60): view('dashboard/detai...', Array)
+#5 C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php(936): App\Controllers\Chart->detail('widd')
+#6 C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chart))
+#7 C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pilotgamingindo\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\pilotgamingindo\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}

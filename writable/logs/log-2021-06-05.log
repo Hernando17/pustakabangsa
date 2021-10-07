@@ -1,0 +1,37 @@
+CRITICAL - 2021-06-05 03:33:22 --> Undefined variable $chart
+#0 C:\xampp\htdocs\pilotgamingindo\app\Views\chart.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 37)
+#1 C:\xampp\htdocs\pilotgamingindo\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pilotgamingindo\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\pilotgamingindo\system\Common.php(1217): CodeIgniter\View\View->render('/chart', Array, true)
+#4 C:\xampp\htdocs\pilotgamingindo\app\Controllers\Home.php(19): view('/chart')
+#5 C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php(936): App\Controllers\Home->chart()
+#6 C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\pilotgamingindo\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\pilotgamingindo\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-06-05 03:38:51 --> Unclosed '{' on line 11
+#0 C:\xampp\htdocs\pilotgamingindo\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\pilotgamingindo\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pilotgamingindo\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\pilotgamingindo\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-06-05 04:22:26 --> Invalid file: App\Views\Pager\chart_pagination.php
+#0 C:\xampp\htdocs\pilotgamingindo\system\View\View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App\\Views\\Pager...')
+#1 C:\xampp\htdocs\pilotgamingindo\system\Pager\Pager.php(158): CodeIgniter\View\View->render('App\\Views\\Pager...')
+#2 C:\xampp\htdocs\pilotgamingindo\system\Pager\Pager.php(93): CodeIgniter\Pager\Pager->displayLinks('chart', 'chart_paginatio...')
+#3 C:\xampp\htdocs\pilotgamingindo\app\Views\chart\index.php(69): CodeIgniter\Pager\Pager->links('chart', 'chart_paginatio...')
+#4 C:\xampp\htdocs\pilotgamingindo\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\pilotgamingindo\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\xampp\htdocs\pilotgamingindo\system\Common.php(1217): CodeIgniter\View\View->render('/chart/index', Array, true)
+#7 C:\xampp\htdocs\pilotgamingindo\app\Controllers\Chart.php(44): view('/chart/index', Array)
+#8 C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php(936): App\Controllers\Chart->index()
+#9 C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Chart))
+#10 C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pilotgamingindo\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\pilotgamingindo\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#13 {main}

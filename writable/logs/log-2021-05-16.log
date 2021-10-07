@@ -1,0 +1,43 @@
+ERROR - 2021-05-16 23:19:33 --> mysqli_sql_exception: Table 'pilotgamingindo.akun_admin' doesn't exist in C:\xampp\htdocs\pilotgamingindo\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\xampp\htdocs\pilotgamingindo\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\pilotgamingindo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\pilotgamingindo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\pilotgamingindo\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pilotgamingindo\app\Models\AuthModel.php(13): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pilotgamingindo\app\Controllers\Auth.php(17): App\Models\AuthModel->get_data_login(NULL, 'akun_admin')
+#6 C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#7 C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pilotgamingindo\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\pilotgamingindo\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-05-16 23:19:33 --> Table 'pilotgamingindo.akun_admin' doesn't exist
+#0 C:\xampp\htdocs\pilotgamingindo\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\pilotgamingindo\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\pilotgamingindo\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\pilotgamingindo\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pilotgamingindo\app\Models\AuthModel.php(13): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pilotgamingindo\app\Controllers\Auth.php(17): App\Models\AuthModel->get_data_login(NULL, 'akun_admin')
+#6 C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php(936): App\Controllers\Auth->login()
+#7 C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\pilotgamingindo\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\pilotgamingindo\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-05-16 23:45:27 --> Undefined property: App\Controllers\Home::$countModel
+#0 C:\xampp\htdocs\pilotgamingindo\app\Controllers\Home.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 29)
+#1 C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php(936): App\Controllers\Home->dashboard()
+#2 C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pilotgamingindo\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pilotgamingindo\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-05-16 23:46:03 --> Undefined variable $data
+#0 C:\xampp\htdocs\pilotgamingindo\app\Controllers\Home.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php(936): App\Controllers\Home->dashboard()
+#2 C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\pilotgamingindo\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pilotgamingindo\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\pilotgamingindo\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
