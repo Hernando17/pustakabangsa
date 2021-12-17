@@ -1,0 +1,16 @@
+CRITICAL - 2021-12-14 02:32:16 --> Unknown column 'penerbit' in 'field list'
+#0 C:\xampp\htdocs\pustakabangsa\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `bu...')
+#1 C:\xampp\htdocs\pustakabangsa\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `bu...')
+#2 C:\xampp\htdocs\pustakabangsa\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `bu...')
+#3 C:\xampp\htdocs\pustakabangsa\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `bu...', Array, false)
+#4 C:\xampp\htdocs\pustakabangsa\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pustakabangsa\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pustakabangsa\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\pustakabangsa\system\BaseModel.php(667): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\pustakabangsa\app\Controllers\Buku.php(161): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\pustakabangsa\system\CodeIgniter.php(936): App\Controllers\Buku->save()
+#10 C:\xampp\htdocs\pustakabangsa\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Buku))
+#11 C:\xampp\htdocs\pustakabangsa\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\pustakabangsa\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\pustakabangsa\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#14 {main}
